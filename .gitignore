@@ -1,0 +1,17 @@
+# Data: never in the repo (large, and the SignFi license forbids redistribution)
+data/raw/
+data/samples/
+*.mat
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
