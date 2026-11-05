@@ -17,3 +17,17 @@ To regenerate the samples without downloading the full files:
 ```bash
 .venv/Scripts/python exploration/2026-10-30_signfi_inspection/signfi_remote.py sample dataset_home_276.mat csid_home 300
 ```
+
+## Widar3.0
+
+- Homepage: http://tns.thss.tsinghua.edu.cn/widar3.0/ (links IEEE DataPort, which needs an account,
+  and a public Tsinghua Cloud share: https://cloud.tsinghua.edu.cn/d/2760bb9557ca4d09a74d/).
+- IEEE DataPort: DOI 10.21227/7znf-qp86.
+- Paper: Zheng et al., *Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi*, MobiSys 2019.
+
+To regenerate the sample in `samples/widar3/` (Git Bash needs `MSYS_NO_PATHCONV=1` so `/CSI/...` is
+not turned into a Windows path):
+
+```bash
+.venv/Scripts/python exploration/2026-10-30_widar3_inspection/widar_remote.py get /CSI/20181128.zip -1-1-1-r
+```
